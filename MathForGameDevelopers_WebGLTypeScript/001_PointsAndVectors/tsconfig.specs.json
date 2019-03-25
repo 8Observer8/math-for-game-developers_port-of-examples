@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "sourceMap": true,
+        "outDir": "dist_specs"
+    },
+    "files": [
+        "src_specs/RequireConfigSpecRunner.ts",
+        "src_specs/Point.spec.ts",
+        "src_client/Point.ts",
+        "src_client/Vector.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src_client"
+    ]
+}

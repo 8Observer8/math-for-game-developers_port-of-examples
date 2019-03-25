@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "types": ["requirejs", "jasmine"]
+    },
+    "include": [
+        "src_client",
+        "src_specs"
+    ]
+}
